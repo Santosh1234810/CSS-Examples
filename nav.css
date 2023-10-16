@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    text-decoration: none;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    border: 2px solid black;
+    width: 98%;
+    background-color: lightblue;
+    /* display: inline-block; */
+    overflow: hidden;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+}
+li{
+    float: right;
+}
+.container li a{
+    font-size: 20px;
+    text-decoration: none;
+    /* display: block; */
+    text-align: center;
+    padding: 5px 2px;
+    display: inline-block;
+    padding: 10px;
+    justify-content: center;
+}
+.container li a:hover{
+    background-color: blue;
+    color: white;
+}

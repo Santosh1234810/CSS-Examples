@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        /* descenedant Combinators(space): */
+        .grandfather p{
+            background-color: aqua;
+            color: red;
+            border: 2px solid red;
+        }
+        /* child Combinators(>): */
+        .grandfather > p{
+            font-size: 20px;
+            text-align: center;
+            font-weight: 700;
+        }
+        /* adjacent sibling Combinators(+): */
+        .grandfather + p{
+            color: brown;
+            background-color: lightblue;
+            font-size: 25px;
+        }
+        /* adjucent general Combinators(~):  */
+        .grandfather~p{
+            font-family: cursive;
+            text-decoration: underline;
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h2>Combinators</h2>
+    <div class="grandfather">
+        <p>This is child-1</p>
+        <p>This is child-2</p>
+        <p>This is child-3</p>
+        <span><p>This is child-4</p></span>
+        <p>This is child-5</p>
+    </div>
+
+    <p>This is child-6</p>
+    <p>This is child-7</p>
+    <p>This is child-8</p>
+</body>
+</html>

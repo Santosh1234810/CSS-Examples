@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header .logo{
+    width: 100px;
+    height: 100px;
+    border: 2px solid red;
+    border-radius: 50%;
+    box-shadow: 6px 2px 9px black;
+    vertical-align: middle;
+    margin: 20px;
+}
+.mytitle{
+    font-size: 35px;
+    color: white;
+    font-weight: 700px;
+    text-shadow: 4px 3px 2px rgb(211, 211, 211);
+}
+header{
+    background-color: black;
+    text-align: center;
+    overflow: auto;
+    width: 100%;
+}
+.contents{
+    border-radius: 10px;
+    border: 2px solid red;
+    width: 245px;
+    height: 245px;
+    float: left;
+    display: inline;
+    padding: 5px;
+}
+.contents img{
+    height: 244px;
+    width: 244px;
+    margin-top: 3px;
+    border-radius: 10px;
+    padding: 5px;
+    display: flex;
+}
+.item-container
+{
+    /* padding: 10px; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}

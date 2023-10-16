@@ -1,0 +1,94 @@
+file a complaint: https://cms.rbi.org.in/cms/indexpage.html#eng
+online course: https://functionup.org/
+
+21/03/23
+
+css: it is used to design webpage or webapp.
+    -it makes website attractive, responsive.
+    -latest version of css is css3.
+
+There are three ways to use css
+1. inline css: in starting tag we write style attribute and in that we write property and values.
+2. internal css: in html file we use style tag in that we write css code.
+                syntax: selector{
+                    property: values;
+                    property: values;
+                }
+3. external css: in this we create a separate css file and import in html file.
+
+--in css we are going property and values
+
+*** Selectors in CSS
+1. element selector: here we use element.
+2. group selector: it will group elements.
+3. id Selector: it is use to apply css property to unique or single elements. It is denoted by #
+4. class selector: when we have to apply common property to specific elements. It is denoted by .				
+5. universal selector: when we have to apply css property to all element available. It is denoted by *
+
+======================================================================================
+23/3/23
+*Border: a line drawn around the element.
+
+Box-Model:
+in Box-Model there are 4 concepts.
+1. content: it can be any image or text.
+2. padding: it is used to clear area between content and element border.
+3. border: line drawn aroung an element.
+4. margin: it is used to clear area between element border and  screen border.
+
+*border-radius
+*Box-shadow
+*text-shadow
+*overflow
+
+*display:flex; ==> it is used to adjust according to different size screen
+-this property we apply to parent element.
+
+*display:inline; : if we want to convert block element into inline.
+display:block; if we want to convert inline element into block.
+display:inline-block; : it allows us apply height and width to inline. 
+======================================================================================
+24/03/23
+position: it is used to moved element by applying left, right, top, and bottom value.
+--every element position: static;
+position: relative; if we want to move element by applying left,right,top, and bottom value.
+
+position: absolute; when we want child element by using left,right,top,and bottom value.
+when we want child element must work according to its parent element.
+-parent element must have position: relative;
+
+position: fixed; when we want fixed element on screen window
+position: sticky; when we want to stick element on screen border.
+                  -element will available on web page.
+
+z-index: 1 or -1; it decides statck priority of an element
+
+*Combinators- it is specify relation between selectors.
+1. descenedant Combinators(space): 
+2. child Combinators(>):
+3. adjucent sibling Combinators(+): 
+4: adjucent general Combinators(~):   
+
+*Navigation Bar: it is list of links which is used to redirect to target.
+1. Vertical NavBar
+2. Horizontal NavBar
+=========================================================================
+25/3/23
+
+*box-sizing: border-box; it include element padding size and border 
+
+*media-query: it is use apply different style rule for different screen size.
+
+screen width: >= 1200px ==> xl screen
+screen width: >= 992px ==> lg screen
+screen width: >= 768px ==> md screen
+screen width: >= 576px ==> sm screen
+screen width: < 576px ==> xsm screen
+
+syntax for media query:
+@media screen and (break-point){
+    css code
+}
+
+max-width: css property will apply till its max-width.
+min-width: css property will apply from its minimum width to above.

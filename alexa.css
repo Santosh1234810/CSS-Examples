@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+}
+.mytitle{
+    font-weight: 100px;
+    font-size: 30px;
+    color: darkviolet;
+    font-weight: 700px;
+    text-shadow: 4px 3px 4px crimson;   
+}
+.logo{
+    height: 100px;
+    width: 100px;
+    border: 2px solid lightcoral;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin: 5px 5px 0px 0px;
+}
+header{
+    background-color: lightblue;
+    border-bottom: 4px solid blueviolet;
+    border-radius: 10px;
+    box-shadow: 3px 4px 5px black;
+    text-align: center;
+}
+@media screen and (max-width:350px)
+{
+    .mytitle{
+        display: block;
+        background-color: blueviolet;
+    }
+    .logo{
+        height: 50px;
+        width: 50px;
+        background-color: brown;
+    }
+    header{
+        background-color: aqua;
+    }
+}
+.block1, .block2, .block3, .block4{
+    width: 25%;
+    border: 3px solid red;
+    height: 100px;
+    float: left;
+}
+@media screen and (max-width:768px){
+    .block1, .block2, .block3, .block4{
+        width: 50%;
+    }
+}   
+@media screen and (max-width:576px){
+    .block1, .block2, .block3, .block4{
+        width: 100%;
+    }
+}

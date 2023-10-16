@@ -1,0 +1,42 @@
+.cls1{
+    border: 5px solid red;
+        height: 50px;
+        width: 250px;
+        background: aqua;
+        top: 40px;
+        left: 36px;
+        position: relative;
+}
+
+.parent 
+{
+    border: 2px solid green;
+    height: 400px;
+    width: 400px;
+    background: lightcoral;
+    position: relative;
+    left: 50px;
+}
+.child{
+    border: 2px solid blue;
+    height: 150px;
+    width: 200px;
+    background: lightblue;
+    position: absolute;
+    right: 0px;
+}
+.fixele{
+    border: 2px solid blue;
+    width: 50px;
+    position: fixed;
+    right: 0px;
+    z-index: 1;
+}
+.offer{
+    border: 3px solid yellow;
+    background-color: lightblue;
+    text-align: center;
+    text-transform: uppercase;
+    position: sticky;
+    top: 0px;
+}
